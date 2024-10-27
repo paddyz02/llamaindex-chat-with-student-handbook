@@ -33,8 +33,8 @@ class Copilot:
                         )
         
         self.system_prompt = """
-            You are an expert on Columbia University and your job is to answer questions 
-            about the university.
+            You are an expert on quick and easy recipes for dinner and your job is to answer questions 
+            about recipe ideas.
         """
 
     def ask(self, question, messages, openai_key=None):
@@ -52,8 +52,8 @@ class Copilot:
 
             The retrived information is: {retrieved_info}
 
-            Please answer the question based on the retrieved information. If the question is not related to Columbia University, 
-            please tell the user and ask for a question related to Columbia University.
+            Please answer the question based on the retrieved information. If the question is not related to food or recipes, 
+            please tell the user and ask for a question related to recipe ideas.
 
             Please highlight the information with bold text and bullet points.
         """
@@ -95,3 +95,4 @@ if __name__ == "__main__":
 
         messages.append({"role": "user", "content": question})
         messages.append({"role": "assistant", "content": answer})
+
