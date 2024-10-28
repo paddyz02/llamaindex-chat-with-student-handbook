@@ -1,6 +1,6 @@
-# 🦙📚 Columbia Copilot
+# 🍔 Food Recipes Copilot
 
-Columbia Copilot is an AI-powered chatbot designed to answer questions about Columbia University. It leverages the capabilities of OpenAI's GPT-4o and LlamaIndex to provide accurate and contextually relevant responses based on the data it has been trained on.
+Food Recipes Copilot is an AI-powered chatbot designed to provide users with quick recipes to cook for weeknight dinners. It leverages the capabilities of OpenAI's GPT-4o and LlamaIndex to provide accurate and contextually relevant responses based on the data it has been trained on.
 
 ## Overview of the App
 
